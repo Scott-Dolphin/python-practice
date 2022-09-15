@@ -1,5 +1,5 @@
 from header import *
-
+import random
 test =  10
 
 #Leap year
@@ -22,4 +22,7 @@ print('50 miles is', milesToKm(50), 'km')
 print('32f in c is', fahToCel(32))
 
 #print the fibonacci sum of the first n terms
+print(Fibonacci(10))
 
+#print random number
+print('printing random number;', random.randrange(100))

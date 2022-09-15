@@ -1,9 +1,10 @@
-solve quadratic eqn                     *
-swap two variables                      
-generate a random number                
-convert miles to km                     *                     
-convert c to f                          *
-check leap year                         *
-check prime number                      *
-print fibonacci                         *
-find armstrong mumber in interval       *
+<pre>
+> solve quadratic equation              ...finished
+> generate a random number              ...finished
+> convert miles to km                   ...finished
+> convert c to f                        ...finished
+> check leap year                       ...finished
+> check prime number                    ...finished
+> print fibonacci                       ...finished
+> find armstrong mumber in interval     ...finished
+</pre>

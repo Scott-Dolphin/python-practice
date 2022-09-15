@@ -55,18 +55,23 @@ def fahToCel(f):
     f /= 9
     return f
 
-#fixme: potential logic error
-def recurFibonacci(n):
-    if n < 1:
-        return n
-    else:
-        return(recurFibonacci(n-1) + recurFibonacci(n-2))
 
-#fixme: potential logic error: throwing negative number?
-def printFibo(n):
-    if n <= 0:
-        print('please enter a positive integer')
+def Fibonacci(n):
+   
+    # Check if input is 0 then it will
+    # print incorrect input
+    if n < 0:
+        print("Incorrect input")
+ 
+    # Check if n is 0
+    # then it will return 0
+    elif n == 0:
+        return 0
+ 
+    # Check if n is 1,2
+    # it will return 1
+    elif n == 1 or n == 2:
+        return 1
+ 
     else:
-        print('fibonacci sequence up to', n)
-        for i in range(n):
-            print(recurFibonacci(i))
+        return Fibonacci(n-1) + Fibonacci(n-2)
