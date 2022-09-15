@@ -1,3 +1,4 @@
+<pre>
 > solve quadratic equation              ...finished
 > generate a random number              ...finished
 > convert miles to km                   ...finished
@@ -6,3 +7,4 @@
 > check prime number                    ...finished
 > print fibonacci                       ...finished
 > find armstrong mumber in interval     ...finished
+</pre>
