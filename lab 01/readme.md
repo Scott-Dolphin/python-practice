@@ -1,5 +1,4 @@
 solve quadratic eqn                     *
-swap two variables                      
 generate a random number                
 convert miles to km                     *                     
 convert c to f                          *
