@@ -32,6 +32,9 @@ def list_product(list):
 # 4. reverse a string
 def string_reverse(w):
     result = ''
-    for i in range(len(w)):
-        result.insert(0, w[i])
+    i = len(w)
+    while i > 0:
+        result += w[i - 1]
+        i -= 1
+    
     return result

@@ -4,6 +4,7 @@ list01 = [1,2,3,4,5,8,2,4,23,77,2,1,4,3,5]
 list02 = [10,20,30,40,50,]
 list03 = [1,2,3,4,5,6,7]
 list04 = [-2,4,5,6]
+test_String = 'hello'
 
 # testing example 1
 print('testing with (1, 2, 3):              expected: 3      returned:', max3(1, 2, 3))
@@ -22,4 +23,4 @@ print('testing with small sample:           expected: -240   returned:', list_pr
 print('testing with small sample:           expected: 5040   returned:', list_product(list04))
 
 # testing example 4
-print('testing with "hello":                extpected ')
+print('testing with "hello":                expected: olleh  returned:', string_reverse(test_String))
