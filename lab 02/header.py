@@ -24,10 +24,10 @@ def list_sum(list):
 
 # 3. return product of a list
 def list_product(list):
-    product = 0
+    product = 1
     for i in range(len(list)):
-        product += list[i]
-    return sum
+        product *= list[i]
+    return product
 
 # 4. reverse a string
 def string_reverse(w):
@@ -36,5 +36,13 @@ def string_reverse(w):
     while i > 0:
         result += w[i - 1]
         i -= 1
+    
+    return result
+
+# 5. calculate the factorial of a number
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
     
     return result
