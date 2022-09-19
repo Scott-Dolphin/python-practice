@@ -1,6 +1,6 @@
 from header import *
 import random
-test =  10
+test =  1400
 
 #Leap year
 print('test is a leap year:', checkYear(test))
@@ -22,7 +22,16 @@ print('50 miles is', milesToKm(50), 'km')
 print('32f in c is', fahToCel(32))
 
 #print the fibonacci sum of the first n terms
-print(Fibonacci(10))
+# print(Fibonacci(10))
 
 #print random number
 print('printing random number;', random.randrange(100))
+
+#swap two variables
+x = 'a'
+y = 'b'
+print(x, y)
+temp = x
+x = y
+y = temp
+print(x,y)
