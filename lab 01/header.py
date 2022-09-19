@@ -5,7 +5,11 @@ from math import log10
 # mod 4, if it's zero, it should be a leap year
 def checkYear(y):
     if y % 4 == 0:
-        return True
+        if y % 100:
+            if y % 400:
+                return True
+            else:
+                return False               
     else:
         return False
 
