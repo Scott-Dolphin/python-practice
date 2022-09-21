@@ -1,7 +1,9 @@
 from least_common_multiple import *
 
-# print(list_multiples(30))
 
-# print(gcd(100, 200))
+a = int(input('enter a number\n...'))
+b = int(input('enter a second number\n...'))
 
-print(lcm(12, 14))
+
+print('The LCM of', a, 'and', b, 'is', lcm(a,b))
+
